@@ -20,4 +20,10 @@ sudo apt install ./python-pycurl_7.43.0-2_armhf.deb ./python-crypto_2.6.1-9+b1_a
 ```
   ## Aclaraciones ##
 - Es preferible instalarlo en el directorio /Pyload, si no al tiempo por problemas de permisos el sistema los cambia y el servicio no se inicia.
--   
+- Una vez instalado se debe seguir el asistente:
+  # <div align="center">
+<p align="center">
+<img src="images/Prompt.png">
+</p>
+  
+- Una vez finalizado el asistente accederas a la web http://ip_de_raspberry:8000
