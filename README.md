@@ -19,7 +19,7 @@ wget https://github.com/pyload/pyload/releases/download/v0.4.20/pyload-cli_0.4.2
 sudo apt install ./python-pycurl_7.43.0-2_armhf.deb ./python-crypto_2.6.1-9+b1_armhf.deb ./pyload-cli_0.4.20_all.deb -y
 ```
   ## Aclaraciones ##
-- Es preferible instalarlo en el directorio /Pyload, si no al tiempo por problemas de permisos el sistema los cambia y el servicio no se inicia.
+- Es preferible instalarlo en el directorio /Pyload y que la configuración tambien este alojada ahi, si no al tiempo por problemas de permisos el sistema los cambia y el servicio no se inicia.
 - Una vez instalado se debe seguir el asistente:
   # <div align="center">
 <p align="center">
