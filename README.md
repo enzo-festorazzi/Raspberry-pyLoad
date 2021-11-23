@@ -26,4 +26,4 @@ sudo apt install ./python-pycurl_7.43.0-2_armhf.deb ./python-crypto_2.6.1-9+b1_a
 <img src="images/Prompt.png">
 </p>
   
-- Una vez finalizado el asistente accederas a la web http://ip_de_raspberry:8000
+- Finalizado el asistente, se accede a la web: http://ip_de_raspberry:8000
