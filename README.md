@@ -4,7 +4,7 @@
 </p>
 
 # <div align="center">Instalar Pyload en Raspberry Pi
-  La instalación que se muestra a continuación es para Debian 11.
+  La instalación que se muestra a continuación es para Raspberry OS 2021-10-30 (Debian 11).
   
 * Paso 1: Crear directorio de Pyload y darle permisos al mismo.
 * Paso 2: Entrar en el directorio.
