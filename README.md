@@ -45,7 +45,7 @@ ExecStart=python2.7 /Pyload/pyload-0.4.20/pyLoadCore.py
 [Install]
 WantedBy=multi-user.target
 ```
-* Paso 8: Configuramos Pyload.
+* Paso 8: Configurar Pyload.
 ```bash
 /pyload-0.4.20/PyloadpyLoadCore.py -s
 ```
