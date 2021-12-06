@@ -32,7 +32,7 @@ unizp v0.4.20.zip | cd /pyload-0.4.20
 ```bash
 sudo nano /etc/systemd/system/pyload.service
 ```
-* Paso 7: Editar servcio (Pegamos todo lo que esta a continuación.
+* Paso 7: Editar servcio (Pegamos todo lo que esta a continuación).
 ```bash
 [Unit]
 Description=Python Downloader
