@@ -18,7 +18,7 @@ cd /Pyload
 ```
 * Paso 3: Descagar Pyload y librerias necesarias (python-pycurl & python-crypto).
 ```bash 
-wget https://github.com/pyload/pyload/archive/refs/tags/v0.4.20.zip | http://ftp.us.debian.org/debian/pool/main/p/pycurl/python-pycurl_7.43.0-2_armhf.deb | http://ftp.us.debian.org/debian/pool/main/p/python-crypto/python-crypto_2.6.1-9+b1_armhf.deb
+wget https://github.com/pyload/pyload/archive/refs/tags/v0.4.20.zip http://ftp.us.debian.org/debian/pool/main/p/pycurl/python-pycurl_7.43.0-2_armhf.deb http://ftp.us.debian.org/debian/pool/main/p/python-crypto/python-crypto_2.6.1-9+b1_armhf.deb
 ```
 * Paso 4: Instalar librerias
 ```bash
