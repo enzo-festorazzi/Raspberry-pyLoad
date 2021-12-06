@@ -58,11 +58,15 @@ WantedBy=multi-user.target
   
 * Paso 9: Recargar el deominio
 ```bash
-systemctl daemon-reload
+sudo systemctl daemon-reload
 ```
 * Paso 10: Iniciar el servicio
 ```bash
-systemctl start pyload
+sudo systemctl start pyload
+```
+* Paso 11: Iniciar servicio al comienzo del sistema
+```bash
+sudo systemctl enable pyload
 ```
 * Paso 11: Acceda a la web http://ip_de_raspberry:8000
 <p align="center"><img src="images/3.png"></p>
