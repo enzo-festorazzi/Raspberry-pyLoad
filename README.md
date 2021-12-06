@@ -20,7 +20,7 @@ cd /Pyload
 ```bash 
 wget https://github.com/pyload/pyload/archive/refs/tags/v0.4.20.zip http://ftp.us.debian.org/debian/pool/main/p/pycurl/python-pycurl_7.43.0-2_armhf.deb http://ftp.us.debian.org/debian/pool/main/p/python-crypto/python-crypto_2.6.1-9+b1_armhf.deb
 ```
-* Paso 4: Instalar librerias
+* Paso 4: Instalar librerías.
 ```bash
 sudo apt install ./python-crypto_2.6.1-9+b1_armhf.deb ./pyload-cli_0.4.20_all.deb -y
 ``` 
@@ -56,7 +56,7 @@ WantedBy=multi-user.target
 - Active la interfaz web y ponga la dirección 0.0.0.0, si no podra ingresar desde su red.
 <p align="center"><img src="images/2.png"></p>
   
-* Paso 9: Recargar el deominio
+* Paso 9: Recargar el demonio.
 ```bash
 sudo systemctl daemon-reload
 ```
@@ -64,7 +64,7 @@ sudo systemctl daemon-reload
 ```bash
 sudo systemctl start pyload
 ```
-* Paso 11: Iniciar servicio al comienzo del sistema
+* Paso 11: Iniciar servicio al comienzo del sistema.
 ```bash
 sudo systemctl enable pyload
 ```
