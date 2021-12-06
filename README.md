@@ -68,5 +68,5 @@ sudo systemctl start pyload
 ```bash
 sudo systemctl enable pyload
 ```
-* Paso 11: Acceda a la web http://ip_de_raspberry:8000
+* Paso 12: Acceda a la web http://ip_de_raspberry:8000
 <p align="center"><img src="images/3.png"></p>
