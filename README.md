@@ -60,7 +60,7 @@ WantedBy=multi-user.target
 ```bash
 sudo systemctl daemon-reload
 ```
-* Paso 10: Iniciar el servicio
+* Paso 10: Iniciar el servicio.
 ```bash
 sudo systemctl start pyload
 ```
