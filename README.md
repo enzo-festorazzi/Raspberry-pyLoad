@@ -3,7 +3,7 @@
 <img src="images/banner.png">
 </p>
 
-# <div align="center">Instalar PyLoad en Raspberry Pi
+# <div align="center">Instalar pyLoad en Raspberry Pi
   La instalación que se muestra a continuación es para <a href="https://downloads.raspberrypi.org/raspios_lite_armhf/release_notes.txt" target="_blank">Raspberry OS 2021-10-30</a> (Debian 11).
   
   ## Comandos: ##
