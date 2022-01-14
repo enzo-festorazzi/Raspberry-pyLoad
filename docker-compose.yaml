@@ -1,0 +1,17 @@
+---
+version 2.1
+services
+  Pyload:
+    image: linuxserver/pyload
+    container_name: Pyload
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=EuropeLondon
+    volumes:
+      - pathtopyloadconfigconfig
+      - pathtodownloadsdownloads
+    ports:
+      - 8000:8000
+      - 7227:7227 #Opcional (pyLoad control port)
+    restart unless-stopped
