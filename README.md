@@ -26,7 +26,7 @@ sudo apt install ./python-crypto_2.6.1-9+b1_armhf.deb ./pyload-cli_0.4.20_all.de
 ``` 
 * Paso 5: Instalar Pyload.
 ```bash
-unizp v0.4.20.zip | cd /pyload-0.4.20
+unzip v0.4.20.zip | cd /pyload-0.4.20
 ```
 * Paso 6: Crear servicio.
 ```bash
